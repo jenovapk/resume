@@ -11,16 +11,19 @@ import Blog from '../modules/Blog';
 const Router = () => {
   return (
     <React.Fragment>
-      <Profile />
-      <Sidebar />
-      {/* cho nay se nhay qua component khac tuong ung voi content khac nhau */}
-      <Switch>
-        <Route path="/" exact component={About} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/works" component={Works} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/blog" component={Blog} />
-      </Switch>
+      <div className="container gutter-top">
+        <Profile />
+        <div className="row sticky-parent">
+          <Sidebar />
+          <Switch>
+            <Route path="/" exact component={About} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/works" component={Works} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/blog" component={Blog} />
+          </Switch>
+        </div>
+      </div>
     </React.Fragment>
   );
 };

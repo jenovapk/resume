@@ -2,11 +2,11 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import Profile from '../components/Profile';
-import About from '../modules/About';
-import Resume from '../modules/Resume';
-import Works from '../modules/Works';
-import Contact from '../modules/Contact';
-import Blog from '../modules/Blog';
+import About from '../modules/about';
+import Resume from '../modules/resume';
+import Works from '../modules/works';
+import Contact from '../modules/contact';
+import Blog from '../modules/blog';
 
 const Router = () => {
   return (

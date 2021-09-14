@@ -9,7 +9,6 @@ import './assets/css/Header.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation />
     <Header />
     <Resume />
   </React.StrictMode>,

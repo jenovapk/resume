@@ -1,6 +1,20 @@
+
+
 body {
     display: contents;
+    background: linear-gradient(
+145.44deg, #F2F4FA 0%, #FAFBFC 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #AEB0B8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased;
 }
 
 #root {
@@ -13,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 1.3;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 
 
@@ -164,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__base-info {
     /* margin-left: 1.5rem; */
-    margin: -2rem 0 0 1rem;
+    margin: 0 0 0 1.5rem;
 }
 
 .container {
@@ -586,16 +604,15 @@ a {
 
 .title--h1 {
     font-size: 2rem;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2.3rem;
 }
 
-.title__separate::before {
-    background-color: #0D86FF;
+.title--h4 {
+    font-size: 1.125rem;
 }
 
-.title__separate::after {
-    background-color: #FF965D;
-    width: 1rem;
+.title--h5 {
+    font-size: 1rem;
 }
 
 .title__separate::before, .title__separate::after {
@@ -609,6 +626,17 @@ a {
     width: 3.125rem;
     z-index: 1;
 }
+
+.title__separate::before {
+    background-color: #0D86FF;
+}
+
+.title__separate::after {
+    background-color: #FF965D;
+    width: 1rem;
+}
+
+
 
 .title-icon {
     margin-right: 0.5rem;
@@ -774,3 +802,8 @@ img {
     text-align: center;
 }
 /*Footer end*/
+
+.title--h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import Profile from '../components/Profile';
+import Footer from '../components/Footer';
 import About from '../modules/About';
 import Resume from '../modules/Resume';
 import Works from '../modules/Works';
@@ -22,8 +23,9 @@ const Router = () => {
             <Route path="/contact" component={Contact} />
             <Route path="/blog" component={Blog} />
           </Switch>
-        </div>
+        </div>      
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

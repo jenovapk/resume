@@ -1,0 +1,51 @@
+p {
+    margin-top: 0;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.case-item {
+    border-color: #33363D;
+}
+
+.case-item {
+    border: 2px solid #33363D;
+    border-radius: calc(20px + 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 24px);
+    margin-bottom: 1.5rem;
+    padding: 1.875rem 1.875rem 1.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.case-item__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.case-item > * {
+    min-width: 0;
+}
+
+.case-item div {
+    flex: 1;
+}
+
+.case-item__caption:last-child {
+    margin-bottom: 0;
+}
+
+.case-item__caption {
+    line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}

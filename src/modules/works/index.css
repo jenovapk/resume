@@ -1,4 +1,8 @@
 
+.cover:hover {
+  transform: scale(1.3);
+}
+
 @media only screen and (max-width: 768px){
 .select .placeholder {
     cursor: pointer;
@@ -179,11 +183,4 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   font-size: 0.875rem;
   display: block;
 }
-
-/* start */
-  
-    .filter__item:last-child:after {
-        content: none;
-    }
-  /* end */
 

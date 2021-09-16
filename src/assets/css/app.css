@@ -420,11 +420,6 @@ dl, ol, ul {
 }
 
 .nav__item a {
-    background-color: #2E2F36;
-    color: #AEB0B8;
-}
-
-.nav__item a {
     background-color: #F7F9FA;
     border-radius: 1.25rem;
     color: #5E6E80;
@@ -438,6 +433,11 @@ dl, ol, ul {
     position: relative;
     text-decoration: none;
     transition: all 0s;
+}
+
+.nav__item a {
+    background-color: #2E2F36;
+    color: #AEB0B8;
 }
 
 .nav__item a.active {

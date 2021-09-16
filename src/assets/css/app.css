@@ -17,6 +17,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.title--h6 {
+    font-size: 0.875rem;
+}
+
 #root {
     background-color: black;
     height: 100%;

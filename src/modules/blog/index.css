@@ -1,3 +1,15 @@
+.overlay:hover{
+    opacity: 0.7;
+    transition: .5s ease-in;
+}
+
+.overlay:before{
+    background:rgba(0,0,0,0.6);
+}
+
+.overlay:hover:after{
+    opacity: 1;
+}
 
 .news-grid {
     display: flex;

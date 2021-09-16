@@ -10,8 +10,8 @@ const Sidebar = () => {
           <li class="nav__item"><NavLink exact to="/"><i class="fas fa-user-alt"></i>About</NavLink></li>
           <li class="nav__item"><NavLink exact to="/resume"><i class="far fa-file-alt"></i>Resume</NavLink></li>
           <li class="nav__item"><NavLink exact to="/works"><i class="fas fa-briefcase"></i>Works</NavLink></li>
-          <li class="nav__item"><NavLink exact to="/contact"><i class="fas fa-phone"></i>Contact</NavLink></li>
           <li class="nav__item"><NavLink exact to="/blog"><i class="fas fa-book"></i>Blog</NavLink></li>
+          <li class="nav__item"><NavLink exact to="/contact"><i class="fas fa-phone"></i>Contact</NavLink></li>
         </ul>
       </div>
     </aside>

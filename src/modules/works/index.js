@@ -136,9 +136,6 @@ const Works = () => {
           </div>{/*<!-- Gallery End -->*/}
         </div>
       </div>
-
-      {/* <!-- Footer --> */}
-      <footer class="footer">© 2019 vCard</footer>
     </div>
   )
 }

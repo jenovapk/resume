@@ -13,9 +13,8 @@ const Profile = () => {
           <h4 class="title titl--h4">Ronald Robertson</h4>
           <div class="status">Creative Director</div>
           <ul class="header__social">
-            <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
         </div>
       </div>

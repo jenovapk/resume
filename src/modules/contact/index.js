@@ -3,7 +3,7 @@ import './index.css';
 
 const Contact = () => {
   return (
-    <div class="col-12 col-md-12 col-lg-10">
+    <div class="col-12 col-md-12 col-lg-10" id="contact">
       <div class="box box-content">
         <div class="pb-2">
           <h1 class="title title--h1 first-title title__separate">Contact</h1>

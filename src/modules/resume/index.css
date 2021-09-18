@@ -1,0 +1,15 @@
+@media (min-width: 768px){
+  #resume {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+@media (min-width: 992px){
+  #resume {
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+  }
+}

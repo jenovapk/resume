@@ -9,7 +9,7 @@ import image08 from '../../assets/img/image_08.jpg';
 
 const Blog = () => {
   return (
-    <div class="col-12 col-md-12 col-lg-10">
+    <div class="col-12 col-md-12 col-lg-10" id="blog">
       <div class="box box-content">
         <div class="pb-2">
           <h1 class="title title--h1 first-title title__separate">Blog</h1>

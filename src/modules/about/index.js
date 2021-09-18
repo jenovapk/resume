@@ -7,7 +7,7 @@ import iconphoto from '../../assets/img/icon-photo.svg';
 
 const About = () => {
   return (
-    <div class="col-12 col-md-12 col-lg-10" >
+    <div class="col-12 col-md-12 col-lg-10" id="about" >
       <div class="box box-content">
         <div class="pb-2">
           <h1 class="title title--h1 first-title title__separate">About Me</h1>
@@ -18,7 +18,7 @@ const About = () => {
           <h2 class="title title--h3">What I'm Doing</h2>
           <div class="row">
             {/* <!-- Case Item --> */}
-            <div class="col-12 col-lg-6">
+            <div class="col-case-item col-padding">
               <div class="case-item">
                 <img class="case-item__icon" src={icondesign} alt="" />
                 <div>
@@ -29,7 +29,7 @@ const About = () => {
             </div>
 
             {/* <!-- Case Item --> */}
-            <div class="col-12 col-lg-6">
+            <div class="col-case-item col-padding">
               <div class="case-item">
                 <img class="case-item__icon" src={icondev} alt="" />
                 <div>
@@ -40,7 +40,7 @@ const About = () => {
             </div>
 
             {/* <!-- Case Item --> */}
-            <div class="col-12 col-lg-6">
+            <div class="col-case-item col-padding">
               <div class="case-item">
                 <img class="case-item__icon" src={iconapp} alt="" />
                 <div>
@@ -51,7 +51,7 @@ const About = () => {
             </div>
 
             {/* <!-- Case Item --> */}
-            <div class="col-12 col-lg-6">
+            <div class="col-case-item col-padding">
               <div class="case-item">
                 <img class="case-item__icon" src={iconphoto} alt="" />
                 <div>

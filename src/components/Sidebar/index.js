@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <aside class="col-12 col-md-12 col-lg-2">
+    <aside class="col-12 col-md-12 col-lg-2" id="sidebar">
       <div class="sidebar box sticky-column is_stuck">
         <ul class="nav">
           <li class="nav__item"><NavLink exact to="/"><i class="fas fa-user-alt"></i>About</NavLink></li>

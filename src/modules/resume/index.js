@@ -73,7 +73,7 @@ const Resume = () => {
             <div class="box box__border">
               {/* <!-- Progress --> */}
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width: "80%", zIndex: 2}}>
                   <div class="progress-text"><span>Web Design</span><span>80%</span></div>
                 </div>
                 <div class="progress-text"><span>Web Design</span></div>
@@ -81,7 +81,7 @@ const Resume = () => {
 
               {/* <!-- Progress --> */}
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: "75%", zIndex: 2}}>
                   <div class="progress-text"><span>Graphic Design</span><span>75%</span></div>
                 </div>
                 <div class="progress-text"><span>Graphic Design</span></div>
@@ -89,7 +89,7 @@ const Resume = () => {
 
               {/* <!-- Progress --> */}
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style={{width: "90%", zIndex: 2}}>
                   <div class="progress-text"><span>Photoshop</span><span>90%</span></div>
                 </div>
                 <div class="progress-text"><span>Photoshop</span></div>
@@ -97,7 +97,7 @@ const Resume = () => {
 
               {/* <!-- Progress --> */}
               <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{width: "50%", zIndex: 2}}>
                   <div class="progress-text"><span>Illustrator</span><span>50%</span></div>
                 </div>
                 <div class="progress-text"><span>Illustrator</span></div>

@@ -2,10 +2,6 @@
   display: none;
 }
 
-.cover:hover {
-  transform: scale(1.3);
-}
-
 .filter__item:last-child:before{
   display: none;
 }
@@ -101,6 +97,10 @@ figure {
   font-family: 'object-fit: cover; object-position: center;';
   height: 100%;
   width: 100%;
+}
+
+.gallery-grid__item:hover .gallery-grid__image {
+  transform: scale3d(1.1, 1.1, 1);
 }
 
 .gallery-grid__image {

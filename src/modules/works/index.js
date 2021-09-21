@@ -47,7 +47,7 @@ const Works = () => {
             </figure>
 
             {/* <!-- Item 2 --> */}
-            <figure class="gallery-grid__item category-concept" style={{position: "absolute", left: "34.395%", top: "0px;"}}>
+            <figure class="gallery-grid__item category-concept" style={{position: "absolute", left: "34.395%", top: "0px"}}>
               <div class="gallery-grid__image-wrap">
                 <img class="gallery-grid__image cover medium-zoom-image ls-is-cached lazyloaded" src={image02} data-zoom="" alt="" />
               </div>
@@ -133,7 +133,7 @@ const Works = () => {
                 <span class="gallery-grid__category">Life</span>
               </figcaption>
             </figure>
-          </div>{/*<!-- Gallery End -->*/}
+          </div>
         </div>
       </div>
     </div>

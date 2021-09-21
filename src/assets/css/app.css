@@ -268,59 +268,6 @@ img {
     user-select: none;
 }
 
-.timeline {
-    margin-top: 1.75rem;
-    padding-left: 0.5rem;
-}
-
-.timeline__item {
-    border-color: #33363D;
-}
-
-.timeline__item {
-    border-left-width: 1px;
-    border-left-style: solid;
-    border-color: #33363D;
-    padding-bottom: 0.5625rem;
-    padding-left: 1.375rem;
-    position: relative;
-}
-
-.timeline__item::before {
-    background-color: #0D86FF;
-    box-shadow: 0 0 0 0.1875rem rgb(13 134 255 / 25%);
-}
-
-.timeline__item::before {
-    content: '';
-    background-color: #304CFD;
-    box-shadow: 0 0 0 0.1875rem rgb(48 76 253 / 25%);
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: -0.3125rem;
-    height: 0.625rem;
-    width: 0.625rem;
-}
-
-.timeline__title {
-    margin-bottom: 0;
-    position: relative;
-    top: -0.3125rem;
-}
-
-.timeline__period {
-    color: rgba(174, 176, 184, 0.7);
-}
-
-.timeline__period {
-    color: rgba(174, 176, 184, 0.7);
-    font-size: 0.875rem;
-}
-
-.timeline__description {
-    margin-top: 0.5rem;
-}
 /*Resume end*/
 
 /*MySkills start*/
@@ -331,77 +278,6 @@ img {
 .box__border {
     border: 2px solid #33363D;
     border-radius: 20px;
-}
-
-.progress {
-    background-color: #2E2F36;
-}
-
-.progress {
-    background-color: #F7F9FA;
-    border-radius: 1rem;
-    height: 1.5rem;
-    margin-bottom: 1.5rem;
-    overflow: inherit;
-    position: relative;
-    text-align: right;
-}
-
-.progress {
-    display: -ms-flexbox;
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: .25rem;
-}
-
-.progress-bar {
-    background-image: linear-gradient(
-142.17deg, #0DA2FF 6.66%, #0055FF 91.48%);
-}
-
-.progress-bar {
-    background-image: linear-gradient(
-142.17deg, #3086FF 6.66%, #304CFD 91.48%);
-    border-radius: 1rem;
-    overflow: hidden;
-    position: relative;
-    width: 0%;
-    z-index: 1;
-}
-
-.progress-bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #007bff;
-    transition: width .6s ease;
-}
-
-.progress .progress-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    padding-left: 0.8125rem;
-    padding-right: 0.8125rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.progress .progress-text > * {
-    min-width: 0;
 }
 
 

@@ -77,14 +77,8 @@
 }
 
 a:hover {
-    color: #304CFD;
-    outline: none;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #0056b3;
-    text-decoration: underline;
+    color: rgba(121, 121, 121, 0.8);
+    text-decoration: none!important;
 }
 
 .news-item__image-wrap::after {

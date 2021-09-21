@@ -77,15 +77,8 @@
   justify-content: center;
   height: 100%;
   position: relative;
-  text-decoration: none;
+  text-decoration: none!important;
   transition: all 0s;
-}
-
-.nav__item [class^="fas"], [class^="far"] {
-  display: block;
-  font-size: 1.75rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 1200px){
@@ -140,6 +133,7 @@
   }
   .nav__item {
     height: auto !important;
+    width: calc(20% - 0rem);
   }
   .nav__item a.active {
     background-image: none !important;
@@ -155,6 +149,7 @@
     font-size: 1rem !important;
     margin-bottom: 0.3rem !important;
   }
+  
 }
 
 .nav__item a {

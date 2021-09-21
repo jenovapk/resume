@@ -81,6 +81,13 @@
   transition: all 0s;
 }
 
+.nav__item [class^="fas"], [class^="far"] {
+  display: block;
+  font-size: 1.75rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
 @media only screen and (max-width: 1200px){
   .sidebar {
     padding: 1.5rem;
